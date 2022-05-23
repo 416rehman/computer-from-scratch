@@ -1,5 +1,23 @@
-# 32bit-Hardware-Chipset
-Collection of digital logic gates for circuit design constructed from NAND.
+# Computer From Scratch
+A project aimed at building a modern computer bottom-up from scratch, including the following components:
+ - Hardware Chipset
+    - Circuitry and Logic Gates for Boolean Arithmetic
+    - CPU (Central Processing Unit) 
+    - ALU (Arithmetic Logic Unit)
+    - RAM (Random Access Memory)
+ - Low Level Programming
+    - Machine Language - Assembly
+    - Assembler for the Machine Language
+ - Virtual Machine
+    - VM Translator
+ - High-Level Programming
+    - Object Oriented Programming Language
+    - Syntax Analysis and Code Generation
+    - Compiler
+ - Operating System.
+
+# Hardware Chipset
+The chipset designed for this computer, including the standard logic-gates, custom ALU, and random-access memory. Logic written and tested using HDL (hardware description language) by Nand2Tetris.
 
 ## How to use
 
@@ -10,6 +28,9 @@ You can also use the online [falstad circuit simulator](http://www.falstad.com/c
 
 ## Circuit Designs
 These are some of the designs implemented using the falstad circuit simulator, the logic for these can be found in the corresponding `.circuitjs.txt` files.
+
+Arithmetic Logic Unit
+![ALU](https://i.imgur.com/uyOP5xF.png)
 
 Dmux
 ![DMux](https://i.imgur.com/i2oeImq.png)
@@ -23,8 +44,9 @@ DMux8Way
 And
 ![And](https://i.imgur.com/FiB1May.png)
 
-Not
-![Not](https://i.imgur.com/5MSWKWZ.png)
-
 Or
 ![Or](https://i.imgur.com/QWb1TWh.png)
+
+<hr>
+
+*If you would like to complete this project yourself, make sure to check out the exemplary [nand2tetris](https://www.nand2tetris.org/) course.*
