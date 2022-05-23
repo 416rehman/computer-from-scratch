@@ -1,0 +1,18 @@
+//Mux.hdl
+
+/** 
+ * Multiplexor:
+ * out = a if sel == 0
+ *       b otherwise
+ */
+
+CHIP Mux {
+    IN a, b, sel;
+    OUT out;
+
+    PARTS:
+    And(a=b, b=sel, out=bSel);
+    Not(in=sel, out=selNot);
+    And(a=a, b=selNot, out=aAndselNot);
+    Or(a=bSel, b=aAndselNot, out=out);
+}
