@@ -6,8 +6,8 @@ A project aimed at building a modern computer bottom-up from scratch, including 
     - ALU (Arithmetic Logic Unit)
     - RAM (Random Access Memory)
  - Low Level Programming
-    - Machine Language - Assembly
-    - Assembler for the Machine Language
+    - Machine Language
+    - Assembly Language
  - Virtual Machine
     - VM Translator
  - High-Level Programming
